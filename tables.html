@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="static/css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="https://www.17sucai.com/preview/2413762/2021-11-06/xiangyingshi%20houtai%20guanli/%E2%95%A7%E2%88%9E%E2%95%99%C2%AA%E2%95%A9%E2%95%9C%E2%95%91%E2%94%8C%E2%95%94%C2%BD%E2%95%93%E2%89%88%E2%95%A0%CE%93%E2%95%91%E2%89%A4%E2%95%A0%C2%BF%E2%95%A3%E2%96%84%E2%94%94%CF%86%E2%94%80%C3%BA%E2%96%91%CF%83/img/favicon.ico">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script><![endif]-->
     <style>
       body{transform: scale(1.0);}
     </style>
@@ -118,8 +121,8 @@
         </div>
         <!-- Sidebar Navidation Menus--><span class="heading">XXX平台</span>
         <ul class="list-unstyled">
-          <li class="active"><a href="index.html"> <i class="icon-home"></i>平台首页</a></li>
-          <li><a href="tables.html"> <i class="icon-grid"></i>下载中心</a></li>
+          <li><a href="index.html"> <i class="icon-home"></i>平台首页</a></li>
+          <li class="active"><a href="tables.html"> <i class="icon-grid"></i>下载中心</a></li>
           <li><a href="charts.html"> <i class="icon-chart"></i>权限中心</a></li>
           <li><a href="forms.html"> <i class="icon-padnote"></i>下载记录</a></li>
           <li><a href="zhgl.html"> <i class="icon-padnote"></i>账号管理</a></li>
@@ -127,18 +130,95 @@
       </nav>
       <!-- Sidebar Navigation end-->
       <div class="page-content">
-        <div class="page-header">
+        <!-- Page Header-->
+        <div class="page-header no-margin-bottom">
           <div class="container-fluid">
-            <h2 class="h5 no-margin-bottom">啥也没有</h2>
+            <h2 class="h5 no-margin-bottom">下载中心</h2>
           </div>
-        </div id="ABCD666">
+        </div>
+        <!-- Breadcrumb-->
+        <div class="container-fluid">
+          <ul class="breadcrumb">
+          </ul>
+        </div>
+        <section class="no-padding-top">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="block margin-bottom-sm">
+                  <div class="title"><strong>登录信息</strong></div>
+                  <div class="table-responsive"> 
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>登录卡号: 1907535456</th>
+                          <th>卡号效期: 2022-03-05 00:00:00</th>
+                        </tr>
+                        <tr>
+                          <th>绑定邮箱: [暂时没有绑定]</th>
+                          <th>绑定QQ: [暂时没有绑定]</th>
+                        </tr>
+                        <tr>
+                          <th>登录地址: 广东省广州市 电信 (127.0.0.1) </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="block margin-bottom-sm">
+                  <div class="title"><strong>站点公告</strong></div>
+                  <div class="table-responsive"> 
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>我是一个公告<br><br><br><br><br></th>
+                        </tr>
+                      </thead>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="block">
+                  <div class="title"><strong>下载中心</strong>
+                  </div>
 
-                            <button id="btnOK" type="button" data-toggle="modal" data-target="#myModal">弹窗，供后端调用，用完删除即可</button>
-                            
-                            <!-- Modal-->
-                            <div id="myModal" tabindex="-10" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal fade text-left"><div role="document" class="modal-dialog"><div class="modal-content"><div class="modal-header"><strong id="exampleModalLabel" class="modal-title">您购买的【三网通】卡密已激活，请激活以下三个网站后                                  </strong><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button></div><section class="no-padding-top no-padding-bottom"><br><div class="icon"><i class="icon-user-1"></i>千网图（每日20次）</div><div class="icon"><i class="icon-user-1"></i>千网图（每日20次）</div><div class="icon"><i class="icon-user-1"></i>千网图（每日20次）</div><div class="icon"><i class="icon-user-1"></i>千网图（每日20次）</div><div class="icon"><i class="icon-user-1"></i>千网图（每日20次）</div><div class="icon"><i class="icon-user-1"></i>千网图（每日20次）</div><br></section><div class="modal-footer"><button type="button" class="btn btn-primary">确定激活</button></div></div></div></div>
+                          <div class="form-group">
+                            <div class="input-group">
+                              <input type="text" class="form-control" value="请输入素材网址">
+                              
+                              <div class="input-group-append">
+                                <button style="margin-right: 400px;border-radius: 0px 10px 10px 0px; height: 40px;" type="button" class="btn btn-primary">搜索</button>
+                              </div>
+                            </div>
+                          </div>
 
-                      <!-- Form Elements -->
+                          <div class="form-group">
+                            <div class="input-group">
+                              <div class="input-group-append">
+                                <button style="margin-left: 500px;border-radius: 10px;" type="button" class="btn btn-primary">原图下载</button>
+                                <button style="margin-left: 30px;border-radius: 10px;" type="button" class="btn btn-primary">原文件下载</button>
+                              </div>
+                            </div>
+                          </div>
+                          
+                    </form>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="block">
+                    <div class="container-fluid text-center">
+                      <p class="no-margin-bottom">这是一个轮播图</p>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
         <!-- <footer class="footer">
           <div class="footer__block block no-margin-bottom">
             <div class="container-fluid text-center">
@@ -157,6 +237,5 @@
     <script src="static/js/jquery.validate.min.js"></script>
     <script src="static/js/charts-home.js"></script>
     <script src="static/js/front.js"></script>
-
   </body>
 </html>
